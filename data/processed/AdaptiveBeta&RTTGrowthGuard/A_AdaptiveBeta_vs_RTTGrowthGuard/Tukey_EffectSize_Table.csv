@@ -1,0 +1,16 @@
+Metric,SNR_Bin_dB,Variant_1,Variant_2,Mean_Difference,P_Value_Adj,Cohens_d
+throughput_mbps,35,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.801,0.0009,1.77
+throughput_mbps,32,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.875,0.0,2.67
+throughput_mbps,29,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.84,0.0046,2.46
+throughput_mbps,26,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.873,0.0023,1.4
+throughput_mbps,23,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.635,0.0369,1.27
+throughput_mbps,14,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-2.236,0.006,2.34
+throughput_mbps,11,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-2.018,0.0387,1.56
+throughput_mbps,2,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-0.304,0.0,28.35
+rtt_ms,35,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,8.68,0.0,10.61
+rtt_ms,32,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,8.483,0.0,6.53
+rtt_ms,29,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,8.08,0.0003,3.91
+rtt_ms,26,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,7.764,0.0,3.01
+rtt_ms,23,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,7.838,0.0,4.51
+rtt_ms,14,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,19.4,0.0042,2.5
+retransmissions,20,Veno_AdaptiveBeta,Veno_RTTGrowthGuard,-1.2,0.0129,1.23

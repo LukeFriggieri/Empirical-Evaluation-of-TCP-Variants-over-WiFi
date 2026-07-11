@@ -1,0 +1,10 @@
+Metric,Variant,W_Statistic,P_Value,Normal
+throughput_mbps,Legacy_Veno,0.7384,0.0,No
+throughput_mbps,Veno_AdaptiveBeta,0.8073,0.0,No
+throughput_mbps,Veno_RTTGrowthGuard,0.781,0.0,No
+rtt_ms,Legacy_Veno,0.424,0.0,No
+rtt_ms,Veno_AdaptiveBeta,0.6402,0.0,No
+rtt_ms,Veno_RTTGrowthGuard,0.5813,0.0,No
+retransmissions,Legacy_Veno,0.322,0.0,No
+retransmissions,Veno_AdaptiveBeta,0.59,0.0,No
+retransmissions,Veno_RTTGrowthGuard,0.5082,0.0,No

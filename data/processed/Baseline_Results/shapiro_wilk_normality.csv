@@ -1,0 +1,13 @@
+Metric,Variant,W_Statistic,P_Value,Normal,Note
+throughput_mbps,cubic,0.7475,0.0,No,Pooled across all SNR bins
+throughput_mbps,vegas,0.734,0.0,No,Pooled across all SNR bins
+throughput_mbps,veno,0.7914,0.0,No,Pooled across all SNR bins
+throughput_mbps,westwood,0.7449,0.0,No,Pooled across all SNR bins
+rtt_ms,cubic,0.349,0.0,No,Pooled across all SNR bins
+rtt_ms,vegas,0.2225,0.0,No,Pooled across all SNR bins
+rtt_ms,veno,0.4624,0.0,No,Pooled across all SNR bins
+rtt_ms,westwood,0.3968,0.0,No,Pooled across all SNR bins
+retransmissions,cubic,0.4189,0.0,No,Pooled across all SNR bins
+retransmissions,vegas,0.3359,0.0,No,Pooled across all SNR bins
+retransmissions,veno,0.3624,0.0,No,Pooled across all SNR bins
+retransmissions,westwood,0.4643,0.0,No,Pooled across all SNR bins
