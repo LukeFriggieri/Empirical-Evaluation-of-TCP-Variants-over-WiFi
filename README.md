@@ -5,23 +5,23 @@ Reproducibility repository for the accompanying paper. Contains raw data, proces
 ## Structure
 data/
 ├── raw/
-│ ├── tcp_results_cleaned_final.csv # Baseline measurements (CUBIC, Westwood, Veno, Vegas)
-│ └── tcp_results_veno_ab_rttguard.csv # Validation measurements (Legacy Veno, Adaptive Beta, RTT Growth Guard)
+│   ├── tcp_results_cleaned_final.csv       # Baseline measurements (CUBIC, Westwood, Veno, Vegas)
+│   └── tcp_results_veno_ab_rttguard.csv    # Validation measurements (Legacy Veno, Adaptive Beta, RTT Growth Guard)
 └── processed/
-├── Baseline_Results/ # Stats + plots for the four baseline variants (Section IV)
-└── AdaptiveBeta&RTTGrowthGuard/ # Stats + plots for the kernel module validation (Section V)
-├── A_AdaptiveBeta_vs_RTTGrowthGuard/
-├── B_Veno_Variants_3way/
-└── C_All_Variants/
+    ├── Baseline_Results/                   # Stats + plots for the four baseline variants (Section IV)
+    └── AdaptiveBeta&RTTGrowthGuard/         # Stats + plots for the kernel module validation (Section V)
+        ├── A_AdaptiveBeta_vs_RTTGrowthGuard/
+        ├── B_Veno_Variants_3way/
+        └── C_All_Variants/
 
 scripts/
-├── fyp_FINAL_CLEAN.py # Main analysis pipeline
-└── stats.py # Statistical tests (ANOVA, Tukey HSD, Cohen's d, Shapiro-Wilk, Levene's)
+├── fyp_FINAL_CLEAN.py                      # Main analysis pipeline
+└── stats.py                                # Statistical tests (ANOVA, Tukey HSD, Cohen's d, Shapiro-Wilk, Levene's)
 
 kernel_module/
-├── tcp_veno_adaptiveBeta.c # Adaptive Beta threshold amendment
-├── tcp_veno_rttGrowthGuard.c # RTT Growth Guard amendment
-└── MakeFile
+├── tcp_veno_adaptiveBeta.c                 # Adaptive Beta threshold amendment
+├── tcp_veno_rttGrowthGuard.c               # RTT Growth Guard amendment
+└── Makefile
 
 
 ## Data
